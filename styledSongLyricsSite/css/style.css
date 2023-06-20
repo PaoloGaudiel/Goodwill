@@ -1,19 +1,112 @@
-h1, h2, h3, h4, p, div, figure, a {
-    color: #573c82;
-    text-align: center;
-    font-family: Gill Sans, Sans-serif;
+h1, h2, h4, p, div, figure, a {
+/*    color: #573c82; */
+    color:black;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 body {
-    background-color:#bdb5d5;
+    margin: 0;
 }
 
-.verse {
-
+.stickynav {
+    position:sticky;
+    top: 0;
+    background-color: rgb(72, 96, 170);
+    padding: 1rem;
+    color:white;
+    font-family: 'Fredoka', sans-serif;
 }
-nav ul {
-    background-color: black;
+
+.stickynav a {
+    font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    padding: 0.5rem;
     color: white;
-    width: 50%;
-    padding: 2rem;
+}
+.stickynav a:visited {
+    color: white;
+}
+
+.stickynav a:hover {
+    font-weight: bold;
+}
+
+.stickynav a:active {
+    color: white;
+}
+
+.header {
+    background-image: linear-gradient(rgb(72, 96, 170), rgb(4, 36, 12))
+}
+
+.header h1, .header a, .header p {
+    color: white;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 3rem;
+}
+
+.header h2 {
+    color: white;
+    display:inline;
+    font-size: 1.5rem;
+}
+
+.header h3{
+    color: white;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 1.5rem;
+}
+
+.header img {
+    float:left;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.songinfo {
+    padding-top: 0.5rem;
+    padding-bottom: 9rem;
+}
+
+.main {
+    margin-top:5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75rem;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+.navbox {
+    float: right;
+    overflow:hidden;
+    position:sticky;
+    top:10rem;
+    background-color: rgb(72, 96, 170);
+    color: white;
+    width: 15%;
+    font-family: 'Fredoka', sans-serif;
+    padding: 1.5rem;
+
+}
+
+.navbox a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbox a:visited {
+    color: white;
+}
+
+.navbox a:hover {
+    font-weight: bold;
+}
+
+.navbox a:active {
+    color: white;
 }
