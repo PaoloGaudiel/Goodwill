@@ -1,0 +1,130 @@
+.big-title {
+    text-align: center;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    overflow: auto;
+}
+
+
+.grid-item-1 {
+    background-color: #A89878;
+}
+
+.grid-item-2 {
+    background-color: #A86827;
+}
+
+.grid-item-3 {
+    background-color: #686858;
+}
+
+.grid-item-4 {
+    background-color: #A8A857;
+}
+
+.grid-item-5 {
+    background-color: #C85838;
+}
+
+.grid-item-6 {
+    background-color: #D9A8A8;
+}
+
+.grid-item-7 {
+    background-color: #D87858;
+}
+
+.grid-item-8 {
+    background-color: #D79898;
+}
+
+.grid-item-9 {
+    background-color: #487879;
+}
+
+.grid-item-10 {
+    background-color: #88A798;
+}
+
+.grid-item-11 {
+    background-color: #E7B858;
+}
+
+.grid-item-12 {
+    background-color: #C8C8C8;
+}
+
+.grid-item-13 {
+    background-color: #3A2828;
+}
+
+.grid-item-14 {
+    background-color: #867998;
+}
+
+.grid-item-15 {
+    background-color: #89C8D8;
+}
+
+.grid-item-16 {
+    background-color: #385898;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 2rem;
+        margin: auto;
+        max-width: 300px;
+   }
+ }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+        margin: auto;
+        max-width: 700px;
+    }
+ }
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        padding: 1rem;
+        gap: 0.5rem;
+        max-width: 1500px;
+        margin: auto;
+    }
+ }
+
+
+/* 
+1 #A89878
+2 #A86827
+3 #686858
+4 #A8A857
+5 #C85838
+6 #D9A8A8
+7 #D87858
+8 #D79898
+9 #487879
+10 #88A798
+11 #E7B858
+12 #C8C8C8
+13 #3A2828
+14 #867998
+15 #89C8D8
+16 #385898
+ */
